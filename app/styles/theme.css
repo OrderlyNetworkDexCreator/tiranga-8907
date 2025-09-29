@@ -1,79 +1,80 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 176 132 233;
-  --oui-color-primary-light: 213 190 244;
-  --oui-color-primary-darken: 137 76 209;
+  --oui-color-primary: 98 76 165;
+  --oui-color-primary-light: 173 142 217;
+  --oui-color-primary-darken: 62 51 137;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 189 107 237;
-  --oui-color-link-light: 217 152 250;
+  --oui-color-link: 158 107 208;
+  --oui-color-link-light: 198 152 238;
 
   --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 218 218 218;
   --oui-color-quaternary: 218 218 218;
 
-  --oui-color-danger: 245 97 139;
-  --oui-color-danger-light: 250 167 188;
-  --oui-color-danger-darken: 237 72 122;
+  --oui-color-danger: 227 78 104;
+  --oui-color-danger-light: 247 133 148;
+  --oui-color-danger-darken: 204 59 88;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 41 233 169;
-  --oui-color-success-light: 101 240 194;
-  --oui-color-success-darken: 0 161 120;
+  --oui-color-success: 33 204 148;
+  --oui-color-success-light: 87 229 173;
+  --oui-color-success-darken: 0 137 118;
   --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 255 209 70;
-  --oui-color-warning-light: 255 229 133;
-  --oui-color-warning-darken: 255 152 0;
+  --oui-color-warning: 245 173 64;
+  --oui-color-warning-light: 253 205 109;
+  --oui-color-warning-darken: 235 134 28;
   --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 36 32 47;
-  --oui-color-fill-active: 40 46 58;
+  --oui-color-fill: 23 20 35;
+  --oui-color-fill-active: 30 29 48;
 
-  --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 81 72 107;
-  --oui-color-base-3: 68 61 69;
-  --oui-color-base-4: 57 52 74;
-  --oui-color-base-5: 51 46 66;
-  --oui-color-base-6: 43 38 56;
-  --oui-color-base-7: 36 32 47;
-  --oui-color-base-8: 29 26 38;
-  --oui-color-base-9: 22 20 28;
-  --oui-color-base-10: 14 13 18;
+  --oui-color-base-1: 78 67 108;
+  --oui-color-base-2: 64 56 91;
+  --oui-color-base-3: 53 46 74;
+  --oui-color-base-4: 44 39 64;
+  --oui-color-base-5: 39 34 56;
+  --oui-color-base-6: 32 28 48;
+  --oui-color-base-7: 71 57 102;
+  --oui-color-base-8: 27 23 42;
+  --oui-color-base-9: 20 17 32;
+  --oui-color-base-10: 11 10 22;
 
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 255 255 255;
 
-  --oui-color-trading-loss: 245 97 139;
+  --oui-color-trading-loss: 227 78 104;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169;
+  --oui-color-trading-profit: 33 204 148;
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
-  --oui-gradient-primary-start: 40 0 97;
-  --oui-gradient-primary-end: 189 107 237;
+  --oui-gradient-primary-start: 61 40 124;
+  --oui-gradient-primary-end: 158 107 208;
 
-  --oui-gradient-secondary-start: 81 42 121;
-  --oui-gradient-secondary-end: 176 132 233;
+  --oui-gradient-secondary-start: 75 51 129;
+  --oui-gradient-secondary-end: 173 142 217;
 
-  --oui-gradient-success-start: 1 83 68;
-  --oui-gradient-success-end: 41 223 169;
+  --oui-gradient-success-start: 18 124 90;
+  --oui-gradient-success-end: 87 229 173;
 
-  --oui-gradient-danger-start: 153 24 76;
-  --oui-gradient-danger-end: 245 97 139;
+  --oui-gradient-danger-start: 183 40 80;
+  --oui-gradient-danger-end: 247 133 148;
 
-  --oui-gradient-brand-start: 231 219 249;
-  --oui-gradient-brand-end: 159 107 225;
+  --oui-gradient-brand-start: 200 162 239;
+  --oui-gradient-brand-end: 137 93 205;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
 
-  --oui-gradient-warning-start: 152 58 8;
-  --oui-gradient-warning-end: 255 209 70;
+  --oui-gradient-warning-start: 210 120 26;
+  --oui-gradient-warning-end: 253 205 109;
 
-  --oui-gradient-neutral-start: 27 29 24;
+  --oui-gradient-neutral-start: 26 28 24;
   --oui-gradient-neutral-end: 38 41 46;
 
   /* rounded */
@@ -91,4 +92,9 @@
   --oui-spacing-md: 26.25rem;
   --oui-spacing-lg: 30rem;
   --oui-spacing-xl: 33.75rem;
+}
+
+html, body {
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 16px !important;
 }
